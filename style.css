@@ -314,7 +314,7 @@ main {
 
 #Skill {
     width: 100vw;
-    height: 100vh;  
+    height: 120vh;  
     background: var(--bg1);
  }
 
@@ -326,6 +326,7 @@ main {
     justify-content: center;
     align-items: center;
     /* background-color: rgb(215, 212, 222); */
+    margin-bottom: 20px;
 } 
 .skills-heading h1 {
     width: 80vw;
@@ -354,6 +355,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 } 
 
 
@@ -377,11 +379,69 @@ main {
 .cardHover:hover {
     scale: 1.1;
     transition: 0.5s;
+}  
+
+
+
+/* ........................ */
+
+.skills-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80vw;
+    margin-bottom: 20px;
 }
 
+.skill {
+    /* width: 45%; */
+    width: 40%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.skill h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: rgb(202, 203, 215);
+}
+
+.skill-bar {
+    /* background-color: #ddd; */
+    background-color: silver;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 15px;
+    /* background-color: #4caf50; */
+    background: rgba(167, 152, 42, 0.94);
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .skill {
+        width: 100%;
+    }
+} 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ........................ */
 
 
 
@@ -477,7 +537,7 @@ main {
 .contact-heading hr {
     border: none;
     height: 5px;
-    background-color:rgb(226, 157, 29) ;
+    background-color: #fff;
     border-radius: 20px;
 }
 .right-content{
@@ -541,6 +601,7 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
 }
 .footer-box {
     display: flex;
@@ -637,7 +698,7 @@ main {
 
         /* skill section */
 
-        #Skill {
+        /* #Skill {
             width: 100vw;
             height: 100vh;
         }
@@ -649,7 +710,7 @@ main {
         }
         .skills-heading p {
             font-size: 5vw;
-        }
+        } */
      
 }
 
@@ -750,7 +811,7 @@ main {
 
     #Skill {
         width: 100vw;
-        height: 150vh;
+        height: 130vh;
     }
     .skills-heading h1 {
         font-size: 11vw;
@@ -808,7 +869,11 @@ main {
     }  
     .contact-inputs {
         width: 80vw;
-    }    */
+    } 
+           */
+    .footer-box2 h4{
+        font-size: 15px;
+    }
 
 }
 
