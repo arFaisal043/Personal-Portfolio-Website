@@ -411,12 +411,16 @@ main {
     background-color: silver;
     border-radius: 15px;
     overflow: hidden;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(20, 20, 20, 0.773);
 }
 
 .skill-level {
-    height: 15px;
+    height: 20px;
     /* background-color: #4caf50; */
-    background: rgba(167, 152, 42, 0.94);
+    background: #4caf50;
     border-radius: 5px;
 }
 
